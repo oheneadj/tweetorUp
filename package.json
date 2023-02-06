@@ -1,0 +1,14 @@
+{
+  "name": "tweetorUp",
+  "version": "1.0.0",
+  "description": "an automated twitter bot",
+  "main": "index.js",
+  "author": "ohene adjei",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^2.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "twitter-api-v2": "^1.14.1"
+  }
+}
