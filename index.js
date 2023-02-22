@@ -31,7 +31,7 @@ const tweet = async () => {
   }
 };
 
-const cronTweet = new CronJob("* * * * *", async () => {
+const cronTweet = new CronJob("30 * * * *", async () => {
   tweet();
 });
 
